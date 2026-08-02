@@ -1,7 +1,25 @@
 aid: travelio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/travelio.png
 name: Travelio
-description: Travelio is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Travelio is one of Indonesia's largest online property rental and management
+  platforms, operated by PT Horizon Internusa Persada. It lists furnished and unfurnished
+  apartments, houses, villas, guest houses, and hotel residences for daily, monthly,
+  and yearly rental across 15+ Indonesian cities including Jakarta, Bandung, Surabaya,
+  Bali, and Yogyakarta, and offers hospitality-grade property management for owners.
+  Backed by 500 Global, Travelio runs consumer web and mobile apps but publishes no
+  public developer API, SDK, partner integration surface, or developer portal as of
+  this profile.
 url: https://raw.githubusercontent.com/api-evangelist/travelio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Property Rental
+- Real Estate
+- Property Management
+- Hospitality
+- Travel
+- Indonesia
+- Apartments
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +46,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/travelio-domain-security.yml
 - type: Website
   url: https://travelio.com
+- type: Blog
+  url: https://travelio.com/blog
+- type: Support
+  url: https://travelio.com/faq
+- type: TermsOfService
+  url: https://travelio.com/termsandcondition
+- type: PrivacyPolicy
+  url: https://travelio.com/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

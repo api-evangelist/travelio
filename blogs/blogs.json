@@ -1,0 +1,21 @@
+{
+  "repo": "travelio",
+  "feeds": [
+    {
+      "source": "https://travelio.com/blog/feed/",
+      "feed_url": "https://travelio.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://travelio.com",
+      "feed_url": "https://travelio.com/blog/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 6,
+  "fetched": "2026-08-01T15:49:00Z"
+}
